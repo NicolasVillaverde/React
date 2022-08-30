@@ -4,7 +4,7 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                alboreto: ["Aboreto", "cursive"],
+                alboreto: ["Poppins", "sans-serif"],
             },
         },
     },
