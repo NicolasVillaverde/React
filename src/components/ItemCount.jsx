@@ -8,26 +8,28 @@ const ItemCount = ({ stock, initial, onAdd }) => {
     };
 
     return (
-        <div>
-            <button
-                onClick={() => {
-                    setContador(contador - 1);
-                }}
-                disabled={contador === initial}
-                className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded"
-            >
-                -
-            </button>
-            <span>{contador}</span>
-            <button onClick={aumentarContador} className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded">
-                +
-            </button>
+        <>
+            <div className="flex gap-4">
+                <button
+                    onClick={() => {
+                        setContador(contador - 1);
+                    }}
+                    disabled={contador === initial}
+                    className="font-poppins font-bold hover:text-green-500 active:text-slate-600 "
+                >
+                    -
+                </button>
+                <span className="font-poppins font-bold  active:text-slate-600">{contador}</span>
+                <button onClick={aumentarContador} className="font-poppins font-bold  hover:text-green-500  active:text-slate-600">
+                    +
+                </button>
+            </div>
             <div>
-                <button className="bg-blue-500 text-white font-bold py-2 px-4 rounded-full" onClick={() => onAdd(contador)} disabled={contador === 0}>
+                <button className="font-poppins border-2 p-1  hover:border-green-600" onClick={() => onAdd(contador)} disabled={contador === 0}>
                     Agregar al carrito
                 </button>
             </div>
-        </div>
+        </>
     );
 };
 export default ItemCount;

@@ -25,10 +25,9 @@ const ItemListContainer = () => {
     }, []);
 
     return (
-        <>
-            <div className=" text-center text-lg ">Item List Container</div>
+        <div className="py-8">
             <CardList productos={productos} />
-        </>
+        </div>
     );
 };
 export default ItemListContainer;

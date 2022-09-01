@@ -4,11 +4,11 @@ import { navBarOptions } from "../helpers/strings.js";
 
 const Navbar = () => {
     return (
-        <nav className="bg-white drop-shadow-md font-poppins">
+        <nav className="bg-white drop-shadow-md font-poppins py-2">
             <div className="px-20 flex items-center">
-                <div className="flex flex-1 items-center text-3xl gap-5">
+                <div className="flex flex-1 items-center text-3xl gap-1">
                     <TbPlant2 />
-                    <p>Botanika</p>
+                    <p className=" font-suranna font-bold">Botanika</p>
                 </div>
                 <div className="flex-1">
                     <ul className="flex justify-center gap-5 text-xl ">
@@ -17,7 +17,7 @@ const Navbar = () => {
                         ))}
                     </ul>
                 </div>
-                <div className="flex flex-1 items-center justify-end text-3xls">
+                <div className="flex flex-1 items-center justify-end text-3xls gap-2 text-xl">
                     <CartWidget />
                 </div>
             </div>
