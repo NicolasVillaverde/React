@@ -3,11 +3,9 @@ import products from "../MyProducts.json";
 
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import Spinner from "./Spinner";
 
 const ItemDetailContainer = () => {
   const [item, setItem] = useState([]);
-
   const { detailId } = useParams();
 
   const getItem = (data, time) =>
@@ -31,8 +29,12 @@ const ItemDetailContainer = () => {
         }
       })
       .catch((err) => console.log(err, ": No hay productos"));
-  }, []);
+  }, [detailId]);
 
-  return <div className="py-8">{item ? <ItemDetail item={item} /> : <Spinner />}</div>;
+  return (
+    <div className="py-8">
+      <ItemDetail item={item} />
+    </div>
+  );
 };
 export default ItemDetailContainer;

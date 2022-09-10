@@ -1,7 +1,7 @@
 const ItemDetail = ({ item }) => {
   return (
     <div className="flex justify-center gap-4">
-      <div className="bg-green-500 w-1/4 h-64">
+      <div className=" w-1/4 h-64">
         <img src={item.img} alt="" className="" />
       </div>
       <div className="w-1/3 flex flex-col gap-9 ">

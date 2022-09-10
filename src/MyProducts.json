@@ -5,7 +5,7 @@
     "title": "Adipiscing Cursus",
     "description": "Official Herschel stockist Australian warranty assistance & support Australian shipping & returns.Customer first experienceEnvironmentally focused",
     "price": "450",
-    "img": "./img/Adipiscing_cursus.webp",
+    "img": "/img/Adipiscing_cursus.webp",
     "stock": "10"
   },
   {
@@ -14,7 +14,7 @@
     "title": "Backpack Double Strap",
     "description": "Official Herschel stockist Australian warranty assistance & support Australian shipping & returns.Customer first experienceEnvironmentally focused",
     "price": "150",
-    "img": "./img/Backpack_Double_Strap.webp",
+    "img": "/img/Backpack_Double_Strap.webp",
     "stock": ""
   },
   {
@@ -23,7 +23,7 @@
     "title": "Chekra Crystal",
     "description": "Official Herschel stockist Australian warranty assistance & support Australian shipping & returns.Customer first experienceEnvironmentally focused",
     "price": "150",
-    "img": "./img/Chekra_Crystal.webp",
+    "img": "/img/Chekra_Crystal.webp",
     "stock": ""
   },
   {
@@ -32,7 +32,7 @@
     "title": "Eled Doming Deserunt",
     "description": "Official Herschel stockist Australian warranty assistance & support Australian shipping & returns.Customer first experienceEnvironmentally focused",
     "price": "250",
-    "img": "./img/Eled_Doming_Deserunt.webp",
+    "img": "/img/Eled_Doming_Deserunt.webp",
     "stock": ""
   },
   {
@@ -41,7 +41,7 @@
     "title": "Eled Doming",
     "description": "Official Herschel stockist Australian warranty assistance & support Australian shipping & returns.Customer first experienceEnvironmentally focused",
     "price": "150",
-    "img": "./img/Eled_Doming.webp",
+    "img": "/img/Eled_Doming.webp",
     "stock": ""
   },
   {
@@ -50,7 +50,7 @@
     "title": "Faded Short Sleeves",
     "description": "Official Herschel stockist Australian warranty assistance & support Australian shipping & returns.Customer first experienceEnvironmentally focused",
     "price": "150",
-    "img": "./img/Faded_Short_Sleeves.webp",
+    "img": "/img/Faded_Short_Sleeves.webp",
     "stock": ""
   },
   {
@@ -59,7 +59,7 @@
     "title": "Fringilla Augue",
     "description": "Official Herschel stockist Australian warranty assistance & support Australian shipping & returns.Customer first experienceEnvironmentally focused",
     "price": "320",
-    "img": "./img/Fringilla_Augue.webp",
+    "img": "/img/Fringilla_Augue.webp",
     "stock": ""
   },
   {
@@ -68,7 +68,7 @@
     "title": "Fringilla Augue 360",
     "description": "Official Herschel stockist Australian warranty assistance & support Australian shipping & returns.Customer first experienceEnvironmentally focused",
     "price": "150",
-    "img": "./img/Fringilla_Augue_360.webp",
+    "img": "/img/Fringilla_Augue_360.webp",
     "stock": ""
   },
   {
@@ -77,7 +77,7 @@
     "title": "Plant",
     "description": "Official Herschel stockist Australian warranty assistance & support Australian shipping & returns.Customer first experienceEnvironmentally focused",
     "price": "150",
-    "img": "./img/Plant.webp",
+    "img": "/img/Plant.webp",
     "stock": ""
   },
   {
@@ -86,7 +86,7 @@
     "title": "Plant Beautiful",
     "description": "Official Herschel stockist Australian warranty assistance & support Australian shipping & returns.Customer first experienceEnvironmentally focused",
     "price": "150",
-    "img": "./img/Plant_Beautiful.webp",
+    "img": "/img/Plant_Beautiful.webp",
     "stock": ""
   },
 
@@ -96,7 +96,7 @@
     "title": "Rastrillo",
     "description": "Soy un rastrillo",
     "price": "150",
-    "img": "./img/rastrillo.jpg",
+    "img": "/img/rastrillo.jpg",
     "stock": ""
   },
 
@@ -106,7 +106,7 @@
     "title": "Maceta N°12",
     "description": "Soy una maceta",
     "price": "150",
-    "img": "./img/maceta.jpg",
+    "img": "/img/maceta.jpg",
     "stock": ""
   }
 ]
