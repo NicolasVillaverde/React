@@ -4,23 +4,23 @@ const ItemCount = ({ stock, initial, onAdd }) => {
   const [contador, setContador] = useState(initial);
 
   const aumentarContador = () => {
-    if (contador < stock) setContador(contador + 1);
+    if (contador < stock) setContador((prev) => prev + 1);
   };
 
   return (
     <>
-      <div className="flex gap-4">
+      <div className="flex gap-4 items-center">
         <button
           onClick={() => {
-            setContador(contador - 1);
+            setContador((prev) => prev - 1);
           }}
           disabled={contador === initial}
-          className="font-poppins font-bold hover:text-green-500 active:text-slate-600 "
+          className={`font-poppins font-bold p-2   ${contador === 0 ? "text-slate-300" : " hover:text-green-500"}`}
         >
           -
         </button>
-        <span className="font-poppins font-bold  active:text-slate-600">{contador}</span>
-        <button onClick={aumentarContador} className="font-poppins font-bold  hover:text-green-500  active:text-slate-600">
+        <span className="font-poppins font-bold ">{contador}</span>
+        <button onClick={aumentarContador} disabled={contador >= stock} className={`font-poppins font-bold p-2  ${contador < stock ? " hover:text-green-500" : "text-slate-300"}`}>
           +
         </button>
       </div>

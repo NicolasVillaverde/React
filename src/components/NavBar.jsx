@@ -9,8 +9,9 @@ const Navbar = () => {
       <div className="px-20 flex items-center">
         <NavLink to="/" className="flex flex-1 items-center text-3xl gap-1">
           <TbPlant2 />
-          <p className=" font-suranna font-bold">Botanika</p>
+          <p className=" font-averia font-bold">Botanika</p>
         </NavLink>
+
         <div className="flex-1">
           <ul className="flex justify-center gap-5 text-xl ">
             {navBarOptions.map((op) => (
@@ -20,9 +21,10 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
-        <div className="flex flex-1 items-center justify-end text-3xls gap-2 text-xl">
+
+        <NavLink to="/cart" className="flex flex-1 items-center justify-end text-3xls gap-2 text-xl">
           <CartWidget />
-        </div>
+        </NavLink>
       </div>
     </nav>
     //

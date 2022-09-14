@@ -15,7 +15,7 @@
     "description": "Official Herschel stockist Australian warranty assistance & support Australian shipping & returns.Customer first experienceEnvironmentally focused",
     "price": "150",
     "img": "/img/Backpack_Double_Strap.webp",
-    "stock": ""
+    "stock": "9"
   },
   {
     "id": "3",
@@ -24,7 +24,7 @@
     "description": "Official Herschel stockist Australian warranty assistance & support Australian shipping & returns.Customer first experienceEnvironmentally focused",
     "price": "150",
     "img": "/img/Chekra_Crystal.webp",
-    "stock": ""
+    "stock": "7"
   },
   {
     "id": "4",
@@ -33,7 +33,7 @@
     "description": "Official Herschel stockist Australian warranty assistance & support Australian shipping & returns.Customer first experienceEnvironmentally focused",
     "price": "250",
     "img": "/img/Eled_Doming_Deserunt.webp",
-    "stock": ""
+    "stock": "5"
   },
   {
     "id": "5",
@@ -42,7 +42,7 @@
     "description": "Official Herschel stockist Australian warranty assistance & support Australian shipping & returns.Customer first experienceEnvironmentally focused",
     "price": "150",
     "img": "/img/Eled_Doming.webp",
-    "stock": ""
+    "stock": "4"
   },
   {
     "id": "6",
@@ -51,7 +51,7 @@
     "description": "Official Herschel stockist Australian warranty assistance & support Australian shipping & returns.Customer first experienceEnvironmentally focused",
     "price": "150",
     "img": "/img/Faded_Short_Sleeves.webp",
-    "stock": ""
+    "stock": "8"
   },
   {
     "id": "7",
@@ -60,7 +60,7 @@
     "description": "Official Herschel stockist Australian warranty assistance & support Australian shipping & returns.Customer first experienceEnvironmentally focused",
     "price": "320",
     "img": "/img/Fringilla_Augue.webp",
-    "stock": ""
+    "stock": "12"
   },
   {
     "id": "8",
@@ -69,7 +69,7 @@
     "description": "Official Herschel stockist Australian warranty assistance & support Australian shipping & returns.Customer first experienceEnvironmentally focused",
     "price": "150",
     "img": "/img/Fringilla_Augue_360.webp",
-    "stock": ""
+    "stock": "3"
   },
   {
     "id": "9",
@@ -78,7 +78,7 @@
     "description": "Official Herschel stockist Australian warranty assistance & support Australian shipping & returns.Customer first experienceEnvironmentally focused",
     "price": "150",
     "img": "/img/Plant.webp",
-    "stock": ""
+    "stock": "8"
   },
   {
     "id": "10",
@@ -87,7 +87,7 @@
     "description": "Official Herschel stockist Australian warranty assistance & support Australian shipping & returns.Customer first experienceEnvironmentally focused",
     "price": "150",
     "img": "/img/Plant_Beautiful.webp",
-    "stock": ""
+    "stock": "4"
   },
 
   {
@@ -97,7 +97,7 @@
     "description": "Soy un rastrillo",
     "price": "150",
     "img": "/img/rastrillo.jpg",
-    "stock": ""
+    "stock": "5"
   },
 
   {
@@ -107,6 +107,6 @@
     "description": "Soy una maceta",
     "price": "150",
     "img": "/img/maceta.jpg",
-    "stock": ""
+    "stock": "7"
   }
 ]
