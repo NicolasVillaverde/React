@@ -35,15 +35,15 @@ const ItemDetail = ({ item }) => {
   };
 
   return (
-    <div className="flex justify-center gap-4">
-      <div className=" w-1/4 h-64">
+    <div className="flex-col md:flex md:flex-row justify-center gap-2 md:gap-4 px-2">
+      <div className="w:100 md:w-1/4 md:h-64">
         <img src={item.img} alt="" className="" />
       </div>
-      <div className="w-1/3 flex flex-col gap-9 ">
-        <h1 className=" font-poppins font-bold text-3xl">{item.title}</h1>
-        <p className=" font-poppins ">{item.description}</p>
-        <p className="font-poppins font-bold  border-2 p-1 text-2xl">${item.price}</p>
-        <p className=" font-poppins ">Stock disponible : {item.stock} unidades</p>
+      <div className=" md:w-1/3 flex flex-col gap-2 md:gap-9 ">
+        <h1 className=" font-poppins font-bold text-lg md:text-3xl">{item.title}</h1>
+        <p className=" font-poppins text-sm ">{item.description}</p>
+        <p className="font-poppins font-bold  border-2 p-1 text-lg md:text-2xl">${item.price}</p>
+        <p className=" font-poppins text-sm ">Stock disponible : {item.stock} unidades</p>
         <>{renderItemCount()}</>
       </div>
     </div>

@@ -28,6 +28,11 @@
   color: #61dafb;
 }
 
+a.nav_link:hover {
+  cursor: pointer;
+  color: green;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

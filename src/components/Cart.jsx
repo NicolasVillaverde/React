@@ -20,7 +20,7 @@ const Cart = () => {
     );
   }
   return (
-    <div className="mx-64">
+    <div className="md:mx-64">
       <table className="min-w-full">
         <thead className="border-b">
           <tr>
