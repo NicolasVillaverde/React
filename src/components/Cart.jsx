@@ -41,8 +41,8 @@ const Cart = () => {
             <td></td>
             <td></td>
             <td></td>
-            <td className="border-b-4 border-green-500 text-md font-medium text-gray-900 px-6 py-4 text-right">Total:</td>
-            <td className="border-b-4 border-green-500 text-md font-medium text-gray-900 px-6 py-4 text-right">${totalPrice()}</td>
+            <td className="border-b-4 border-green-500 text-md font-medium text-gray-900 px-6 py-4 text-left">Total:</td>
+            <td className="border-b-4 border-green-500 text-md font-medium text-gray-900 px-6 py-4 text-left">${totalPrice()}</td>
           </tr>
         </tfoot>
       </table>
